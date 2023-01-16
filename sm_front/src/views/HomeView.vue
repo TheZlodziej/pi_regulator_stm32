@@ -85,7 +85,7 @@ export default defineComponent({
 						this.ref_points.data.push([xy[0], json.Uref]);
 						this.points.data.push(xy);
 
-						if (this.ref_points.data.length > 60 * 8) {
+						if (this.ref_points.data.length > 60 * 5) {
 							// if more than 5 mins of data assuming fs=1
 							this.ref_points.data.shift();
 							this.points.data.shift();

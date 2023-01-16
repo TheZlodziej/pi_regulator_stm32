@@ -1,4 +1,4 @@
-# pi_regulator_stm32
-regulator PI na projekt z systemów mikroprocesorowych
-
-## raprot projektu znajduje się [tutaj](raport.pdf)
+## Projekt zaliczeniowy z systemów mikroprocesorowych - regulator PI
+## Raprot projektu znajduje się [tutaj](raport.pdf)
+## Założenia
+- [x] Uchyb ustalony na poziomie 5% wartości zakresu regulacji

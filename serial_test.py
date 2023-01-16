@@ -15,7 +15,7 @@ while True:
     line_read = ser.readline().decode().strip()
     print(line_read)
 
-    line_sent = f'{{"Kc":{kc}, "Kp":{kp}, "Ti":{ti}, "Uref":{uref}}}\r\n'
+    line_sent = f'{{"Uref":{uref}}}\r\n'
     ser.write(bytes(line_sent, 'ascii'))
     print(line_sent)
 

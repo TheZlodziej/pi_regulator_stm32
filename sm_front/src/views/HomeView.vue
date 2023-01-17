@@ -147,6 +147,11 @@ export default defineComponent({
 			a.click();
 			document.body.removeChild(a);
 		},
+
+		clearData() {
+			this.points.data = [];
+			this.ref_points.data = [];
+		},
 	},
 });
 </script>
@@ -211,6 +216,12 @@ export default defineComponent({
 				@click="saveData"
 			>
 				pobierz dane
+			</button>
+			<button
+				class="p-2 rounded-xl m-2 bg-red-700 border-white"
+				@click="clearData"
+			>
+				Wyczyść wykres
 			</button>
 			<button
 				class="p-2 rounded-xl m-2 bg-green-700 border-white"
